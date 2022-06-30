@@ -12,7 +12,7 @@ function prints() {
 if [ "$STACK" = "heroku-18" ];then
 	WKHTMLTOPDF_URL="https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.bionic_amd64.deb"
 	prints "Downloading binaries for Heroku-18"
-elif [ "$STACK" = "heroku-20" ];then
+elif [ "$STACK" = "heroku-22" ];then
 	WKHTMLTOPDF_URL="https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.focal_amd64.deb"
 	prints "Downloading binaries for Heroku-20"
 fi
